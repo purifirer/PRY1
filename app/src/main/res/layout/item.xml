@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        android:id="@+id/imgUpdate"
+        android:layout_width="150dp"
+        android:layout_height="177dp"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_weight="0.2"
+        android:scaleType="center"
+        android:src="@drawable/bape"
+
+        />
+
+    <TextView
+        android:id="@+id/textoItem"
+        android:layout_width="220dp"
+        android:layout_height="148dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_weight="0.9"
+        android:scaleType="center"
+        android:src="@mipmap/ic_launcher"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgDelete"
+        android:layout_width="60dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_weight="0.1"
+        android:scaleType="center"
+        android:src="@drawable/ic_close_black_24dp"
+
+        />
+
+</LinearLayout>

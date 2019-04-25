@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SORTEO!!!</string>
+    <string name="action_settings">Hellouda</string>
+    <string name="ingNombre">Escribe tu nombre</string>
+    <string name="ingOcupacion">Carrea</string>
+    <string name="ingPais">Nacionalidad</string>
+    <string name="ingEdad">Numero de carnet</string>
+    <string name="ingApellido">Escribe tu apellido</string>
+</resources>
